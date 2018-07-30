@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40ABE74D210B98C20048F324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABE74C210B98C20048F324 /* AppDelegate.swift */; };
+		40ABE74F210B98C30048F324 /* HRMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABE74E210B98C30048F324 /* HRMViewController.swift */; };
+		40ABE752210B98C30048F324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ABE750210B98C30048F324 /* Main.storyboard */; };
+		40ABE755210B98C30048F324 /* HeartRateMonitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 40ABE753210B98C30048F324 /* HeartRateMonitor.xcdatamodeld */; };
+		40ABE757210B98C30048F324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40ABE756210B98C30048F324 /* Assets.xcassets */; };
+		40ABE75A210B98C30048F324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40ABE758210B98C30048F324 /* LaunchScreen.storyboard */; };
+		40ABE765210B98C40048F324 /* HeartRateMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40ABE764210B98C40048F324 /* HeartRateMonitorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40ABE761210B98C40048F324 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40ABE741210B98C20048F324 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40ABE748210B98C20048F324;
+			remoteInfo = HeartRateMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40ABE749210B98C20048F324 /* HeartRateMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRateMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40ABE74C210B98C20048F324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40ABE74E210B98C30048F324 /* HRMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRMViewController.swift; sourceTree = "<group>"; };
+		40ABE751210B98C30048F324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40ABE754210B98C30048F324 /* HeartRateMonitor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeartRateMonitor.xcdatamodel; sourceTree = "<group>"; };
+		40ABE756210B98C30048F324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40ABE759210B98C30048F324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40ABE75B210B98C30048F324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40ABE760210B98C40048F324 /* HeartRateMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40ABE764210B98C40048F324 /* HeartRateMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMonitorTests.swift; sourceTree = "<group>"; };
+		40ABE766210B98C40048F324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40ABE746210B98C20048F324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40ABE75D210B98C40048F324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40ABE740210B98C20048F324 = {
+			isa = PBXGroup;
+			children = (
+				40ABE74B210B98C20048F324 /* HeartRateMonitor */,
+				40ABE763210B98C40048F324 /* HeartRateMonitorTests */,
+				40ABE74A210B98C20048F324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40ABE74A210B98C20048F324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40ABE749210B98C20048F324 /* HeartRateMonitor.app */,
+				40ABE760210B98C40048F324 /* HeartRateMonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40ABE74B210B98C20048F324 /* HeartRateMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				40F22701210EB4850089FE5A /* Model */,
+				40F22700210EB45D0089FE5A /* View */,
+				40F226FF210EB3670089FE5A /* Controller */,
+				40ABE75B210B98C30048F324 /* Info.plist */,
+			);
+			path = HeartRateMonitor;
+			sourceTree = "<group>";
+		};
+		40ABE763210B98C40048F324 /* HeartRateMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				40ABE764210B98C40048F324 /* HeartRateMonitorTests.swift */,
+				40ABE766210B98C40048F324 /* Info.plist */,
+			);
+			path = HeartRateMonitorTests;
+			sourceTree = "<group>";
+		};
+		40F226FF210EB3670089FE5A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				40ABE74C210B98C20048F324 /* AppDelegate.swift */,
+				40ABE74E210B98C30048F324 /* HRMViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		40F22700210EB45D0089FE5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40ABE756210B98C30048F324 /* Assets.xcassets */,
+				40ABE750210B98C30048F324 /* Main.storyboard */,
+				40ABE758210B98C30048F324 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40F22701210EB4850089FE5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40ABE753210B98C30048F324 /* HeartRateMonitor.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40ABE748210B98C20048F324 /* HeartRateMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40ABE769210B98C40048F324 /* Build configuration list for PBXNativeTarget "HeartRateMonitor" */;
+			buildPhases = (
+				40ABE745210B98C20048F324 /* Sources */,
+				40ABE746210B98C20048F324 /* Frameworks */,
+				40ABE747210B98C20048F324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartRateMonitor;
+			productName = HeartRateMonitor;
+			productReference = 40ABE749210B98C20048F324 /* HeartRateMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40ABE75F210B98C40048F324 /* HeartRateMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40ABE76C210B98C40048F324 /* Build configuration list for PBXNativeTarget "HeartRateMonitorTests" */;
+			buildPhases = (
+				40ABE75C210B98C40048F324 /* Sources */,
+				40ABE75D210B98C40048F324 /* Frameworks */,
+				40ABE75E210B98C40048F324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40ABE762210B98C40048F324 /* PBXTargetDependency */,
+			);
+			name = HeartRateMonitorTests;
+			productName = HeartRateMonitorTests;
+			productReference = 40ABE760210B98C40048F324 /* HeartRateMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40ABE741210B98C20048F324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Blynkode;
+				TargetAttributes = {
+					40ABE748210B98C20048F324 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					40ABE75F210B98C40048F324 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 40ABE748210B98C20048F324;
+					};
+				};
+			};
+			buildConfigurationList = 40ABE744210B98C20048F324 /* Build configuration list for PBXProject "HeartRateMonitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40ABE740210B98C20048F324;
+			productRefGroup = 40ABE74A210B98C20048F324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40ABE748210B98C20048F324 /* HeartRateMonitor */,
+				40ABE75F210B98C40048F324 /* HeartRateMonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40ABE747210B98C20048F324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40ABE75A210B98C30048F324 /* LaunchScreen.storyboard in Resources */,
+				40ABE757210B98C30048F324 /* Assets.xcassets in Resources */,
+				40ABE752210B98C30048F324 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40ABE75E210B98C40048F324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40ABE745210B98C20048F324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40ABE755210B98C30048F324 /* HeartRateMonitor.xcdatamodeld in Sources */,
+				40ABE74F210B98C30048F324 /* HRMViewController.swift in Sources */,
+				40ABE74D210B98C20048F324 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40ABE75C210B98C40048F324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40ABE765210B98C40048F324 /* HeartRateMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40ABE762210B98C40048F324 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40ABE748210B98C20048F324 /* HeartRateMonitor */;
+			targetProxy = 40ABE761210B98C40048F324 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40ABE750210B98C30048F324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40ABE751210B98C30048F324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40ABE758210B98C30048F324 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40ABE759210B98C30048F324 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40ABE767210B98C40048F324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40ABE768210B98C40048F324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40ABE76A210B98C40048F324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HeartRateMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Blynkode.HeartRateMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40ABE76B210B98C40048F324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = HeartRateMonitor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Blynkode.HeartRateMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40ABE76D210B98C40048F324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5BBF4V2W6;
+				INFOPLIST_FILE = HeartRateMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Blynkode.HeartRateMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartRateMonitor.app/HeartRateMonitor";
+			};
+			name = Debug;
+		};
+		40ABE76E210B98C40048F324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5BBF4V2W6;
+				INFOPLIST_FILE = HeartRateMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Blynkode.HeartRateMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeartRateMonitor.app/HeartRateMonitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40ABE744210B98C20048F324 /* Build configuration list for PBXProject "HeartRateMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40ABE767210B98C40048F324 /* Debug */,
+				40ABE768210B98C40048F324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40ABE769210B98C40048F324 /* Build configuration list for PBXNativeTarget "HeartRateMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40ABE76A210B98C40048F324 /* Debug */,
+				40ABE76B210B98C40048F324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40ABE76C210B98C40048F324 /* Build configuration list for PBXNativeTarget "HeartRateMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40ABE76D210B98C40048F324 /* Debug */,
+				40ABE76E210B98C40048F324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		40ABE753210B98C30048F324 /* HeartRateMonitor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				40ABE754210B98C30048F324 /* HeartRateMonitor.xcdatamodel */,
+			);
+			currentVersion = 40ABE754210B98C30048F324 /* HeartRateMonitor.xcdatamodel */;
+			path = HeartRateMonitor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 40ABE741210B98C20048F324 /* Project object */;
+}
